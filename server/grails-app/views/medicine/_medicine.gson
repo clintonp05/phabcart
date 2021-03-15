@@ -1,0 +1,7 @@
+import phabcart.Medicine
+
+model {
+	Medicine medicine
+}
+
+json g.render(medicine, [resolveTemplate: false])

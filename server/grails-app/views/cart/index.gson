@@ -1,0 +1,8 @@
+import phabcart.Cart
+
+model {
+	Iterable<Cart> cartList
+}
+
+json tmpl.cart(cartList ?: [])
+

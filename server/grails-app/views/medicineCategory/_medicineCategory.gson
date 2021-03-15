@@ -1,0 +1,7 @@
+import phabcart.MedicineCategory
+
+model {
+	MedicineCategory medicineCategory
+}
+
+json g.render(medicineCategory, [resolveTemplate: false])

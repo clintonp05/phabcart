@@ -1,0 +1,7 @@
+import phabcart.Cart
+
+model {
+	Cart cart
+}
+
+json g.render(cart, [resolveTemplate: false])

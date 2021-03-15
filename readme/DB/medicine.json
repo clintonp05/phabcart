@@ -1,0 +1,9 @@
+{"_id":1,"units":7,"price":1.23,"lastUpdated":{"$date":"2021-03-15T11:03:14.455Z"},"version":5,"rating":4.3,"name":"Dolo","category":1,"image":"../../../images/resources/dolo.png","imageURL":"../../../images/resources/dolo.png"}
+{"_id":2,"units":3,"price":158.0,"lastUpdated":{"$date":"2021-03-15T08:14:15.197Z"},"version":4,"rating":4.8,"name":"Benadryl","category":2,"image":"../../../images/resources/benadryl.png","imageURL":"../../../images/resources/benadryl.png"}
+{"_id":3,"units":18,"price":18.05,"lastUpdated":{"$date":"2021-03-14T09:47:22.704Z"},"version":3,"rating":4.0,"name":"Amoxicillin","category":3,"image":"../../../images/resources/amoxicillin.png","imageURL":"../../../images/resources/amoxicillin.png"}
+{"_id":4,"units":18,"price":1.35,"lastUpdated":{"$date":"2021-03-14T09:47:22.711Z"},"version":3,"rating":3.8,"image":"../../../images/resources/paracetamol.png","name":"Paracetamol","category":1,"imageURL":"../../../images/resources/paracetamol.png"}
+{"_id":5,"units":29,"price":2.15,"lastUpdated":{"$date":"2021-03-15T11:16:48.231Z"},"version":1,"imageURL":"../../../images/resources/crocin.png","rating":3.9,"name":"Crocin 650 mg","category":1}
+{"_id":6,"units":5,"price":35.0,"lastUpdated":{"$date":"2021-03-12T14:00:29.065Z"},"version":0,"imageURL":"../../../images/resources/combiflam.png","rating":4.6,"name":"Combiflam Plus","category":1}
+{"_id":7,"units":0,"price":150.0,"lastUpdated":{"$date":"2021-03-15T11:16:48.233Z"},"version":3,"imageURL":"../../../images/resources/volini.png","rating":0.0,"name":"Volini Pain Relief","category":4}
+{"_id":8,"units":18,"price":23.0,"lastUpdated":{"$date":"2021-03-15T11:16:48.226Z"},"version":3,"imageURL":"../../../images/resources/zincovit.png","rating":2.1,"name":"Zincovit","category":1}
+{"_id":9,"units":12,"price":50.0,"lastUpdated":{"$date":"2021-03-15T11:16:48.229Z"},"version":2,"imageURL":"../../../images/resources/evion.png","rating":3.1,"name":"Evion 400mg","category":1}

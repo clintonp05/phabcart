@@ -1,78 +1,27 @@
 # phabcart
 
-An online medicine delivery system, that is developed using Groovy on Grails 4 as backend Java framework, frontend with Angular 8 and database being MongoDb.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
-1. Pre-requisites
+## Development server
 
-If you have the pre-requisites already installed, skip the part which is already available
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-a. Java
-    Minimum version of 8 is required to proceed further
-    https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDBJHIC
+## Code scaffolding
 
-b. Maven
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-    Follow the installation guide here
-    https://maven.apache.org/install.html
+## Build
 
-c. Grails 4
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-    Follow the installation guide here
-    https://docs.grails.org/latest/guide/gettingStarted.html#requirements
+## Running unit tests
 
-d. Groovy
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-    Follow the instruction guide here
+## Running end-to-end tests
 
-    http://groovy-lang.org/install.html#_download
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-e. MongoDb
+## Further help
 
-    Follow the installation guide here
-    https://docs.mongodb.com/manual/installation/
-
-f. Angular
-
-   Follow the guide here
-   https://medium.com/@prasad.k.pawar/install-angular-8-and-set-up-the-environment-2ee2e703ee19
-
-
-2. Import the DB scripts available in \System Path\phabcart\readme\DB\importScripts.txt
-
-3. Install client-side dependencies
-	cd client
-	npm install
-
-4. Running the application
-
-Method 1:
-
- Run the client seperately from the project folder
-
-	gradlew client:bootRun
-
-	and 
-
- Run the server seperately from the project folder
-	gradlew server:bootRun
-
-Method 2:
-
- Run the server and client parallely from the project folder
-
-	gradlew bootRun --parallel	
-
-Method 3:
-
- Run the server seperately from the project folder
-
-step 1:
-
-	cd server
-	grails run-app
-
-step 2:
-	cd client
-	ng serve
-
-The application will run on http://localhost:4200/index, open the link in chrome browser
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
